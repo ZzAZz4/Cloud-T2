@@ -1,21 +1,22 @@
 # Cloud-T2
 
-Repositorio correspondiente a la tarea 2 de Cloud Computing
+Repositorio correspondiente a la tarea 2 de Cloud Computing.
 ## Clonado
 
 ```
 git clone --recursive https://github.com/ZzAZz4/Cloud-T2
 ```
 
-
 ## Pregunta 1: Deploying Kubernetes single and multi-node 
 
+### Single node
 ```
 cd single_node
 powershell ./commands.ps1
 cd logs
 ```
 
+### Multiple nodes
 ```
 cd multi_node
 powershell ./commands.ps1
@@ -33,4 +34,5 @@ The two microservices you will deploy are called system and inventory. The syste
 ```
 
 
+### Pregunta 3: Deploying a containerized application on kubernetes 
 
