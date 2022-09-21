@@ -29,10 +29,11 @@ Se eligió la aplicación de ejemplo **_Deploying microservices to Kubernetes_**
 
 ### Descripción del comportamiento de la aplicación: 
 
-```
-The two microservices you will deploy are called system and inventory. The system microservice returns the JVM system properties of the running container and it returns the pod’s name in the HTTP header making replicas easy to distinguish from each other. The inventory microservice adds the properties from the system microservice to the inventory. This process demonstrates how communication can be established between pods inside a cluster.
-```
+La aplicación consta de dos microservicios, `system` y `inventory`. `system` retorna las propiedades del environment del contenedor, incluyendo el nombre del POD que recibe el request. `inventory` simplemente permite guardar las propiedades obtenidas en `system` en un inventario.
 
+### Propósito:
 
-### Pregunta 3: Deploying a containerized application on kubernetes 
+La aplicación permite demostrar varios comportamientos de Kubernetes. Incluye interacción directa de la aplicación con información de POD's, permitiendo ver la distribución de carga entre POD's y nodos de forma sencilla. También, `inventory` muestra que es posible que interactuen microservicios dentro del mismo cluster.
+
+## Pregunta 3: Deploying a containerized application on kubernetes 
 
