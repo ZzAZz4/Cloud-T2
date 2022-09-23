@@ -8,13 +8,13 @@ git clone --recursive https://github.com/ZzAZz4/Cloud-T2
 ## Pregunta 1: Deploying Kubernetes single and multi-node 
 ### Single node
 ```
-cd single_node
+cd 1.deploying_kubernetes/single_node
 powershell ./commands.ps1
 cd logs
 ```
 ### Multiple nodes
 ```
-cd multi_node
+cd 1.deploying_kubernetes/multi_node
 powershell ./commands.ps1
 cd logs
 ```
@@ -30,5 +30,10 @@ La aplicación consta de dos microservicios, `system` y `inventory`. `system` re
 La aplicación permite demostrar varios comportamientos de Kubernetes. Incluye interacción directa de la aplicación con información de POD's, permitiendo ver la distribución de carga entre POD's y nodos de forma sencilla. También, `inventory` muestra que es posible que interactuen microservicios dentro del mismo cluster.
 
 ## Pregunta 3: Deploying a containerized application on kubernetes 
+Nota: para correr el file, debe haberse clonado el repo recursivamente
 
+```
+cd guide-kubernetes-intro/finish
+powershell ../../3.app_deployment/preg3.ps1
+```
 
