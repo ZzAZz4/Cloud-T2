@@ -42,10 +42,10 @@ powershell ../../deploy_app/preg3.ps1
 ### Diagramas
 
 #### High Level
-[High Level](diagrams/high_level.png)
+![High Level](diagrams/high_level.png)
 
 #### Low Level
-[Low Level](diagrams/low_level.png)
+![Low Level](diagrams/low_level.png)
 
 
 
