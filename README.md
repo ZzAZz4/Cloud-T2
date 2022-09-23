@@ -30,5 +30,5 @@ La aplicación consta de dos microservicios, `system` y `inventory`. `system` re
 La aplicación permite demostrar varios comportamientos de Kubernetes. Incluye interacción directa de la aplicación con información de POD's, permitiendo ver la distribución de carga entre POD's y nodos de forma sencilla. También, `inventory` muestra que es posible que interactuen microservicios dentro del mismo cluster.
 
 ## Pregunta 3: Deploying a containerized application on kubernetes 
->>>>>>> a6914c459a65f9880d0c9bb739fc0c2b5de8d29e
+
 
