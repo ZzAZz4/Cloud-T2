@@ -1,5 +1,9 @@
 # Cloud-T2
 Repositorio correspondiente a la tarea 2 de Cloud Computing.
+
+- Francesco Uccelli
+- Esteban Villacorta
+
 ## Clonado
 ```
 git clone --recursive https://github.com/ZzAZz4/Cloud-T2
